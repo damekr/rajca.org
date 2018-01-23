@@ -1,4 +1,4 @@
-baseURL = "http://rajca.org/"
+baseURL = "https://rajca.org/"
 languageCode = "en-us"
 title = "Damian Rajca"
 theme = "minimal"

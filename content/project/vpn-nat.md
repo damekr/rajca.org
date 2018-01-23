@@ -11,15 +11,65 @@ draft: true
 * Linux server with root access preferable CentOS 7
 * Basic bash knowledge
 
-### Let's start!
+## Let's start!
 
+### Server configuration part
+
+#### Login to our VPN Server
 
 ```bash
   ssh root@<server>
 ```
 
-Make some updates
+#### Make some updates
 
 ```bash
   yum -y update && yum -y upgrade
 ```
+
+#### Stop firewalld 
+
+```bash
+  systemctl stop firwalld
+```
+
+#### Disable firwalld
+
+```bash
+  systemctl disable firwalld
+```
+
+#### Start iptables
+
+```bash
+  systemctl start iptables
+```
+
+#### Enable iptables
+
+```bash
+  systemctl enable iptables
+```
+
+Now we have needed iptables up and running for further access controlling.
+
+#### Install OpenVPN Server
+
+```bash
+  yum -y install openvpn
+```
+
+We have installed our VPN server, it's time to start and configure it for our purposes.
+
+#### Start OpenVPN Server
+
+```bash
+  systemctl start openvpn@server
+```
+
+#### Enable OpenVPN Server
+
+```bash
+  systemctl enable openvpn@server
+```
+

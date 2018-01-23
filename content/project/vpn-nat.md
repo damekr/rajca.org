@@ -50,21 +50,18 @@ draft: true
 ```bash
   systemctl enable iptables
 ```
-
-
+<br/>
 **Now we have needed iptables up and running for further access controlling.**
-
+<br/>
 
 #### Install OpenVPN Server
 
 ```bash
   yum -y install openvpn
 ```
-
-
+<br/>
 **We have installed our VPN server, it's time to start and configure it for our purposes.**
-
-
+<br/>
 
 #### Start OpenVPN Server
 

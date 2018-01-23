@@ -153,14 +153,57 @@
 <li>Basic bash knowledge</li>
 </ul>
 
-<h3 id="let-s-start">Let&rsquo;s start!</h3>
+<h2 id="let-s-start">Let&rsquo;s start!</h2>
+
+<h3 id="server-configuration-part">Server configuration part</h3>
+
+<h4 id="login-to-our-vpn-server">Login to our VPN Server</h4>
 
 <pre><code class="language-bash">  ssh root@&lt;server&gt;
 </code></pre>
 
-<p>Make some updates</p>
+<h4 id="make-some-updates">Make some updates</h4>
 
 <pre><code class="language-bash">  yum -y update &amp;&amp; yum -y upgrade
+</code></pre>
+
+<h4 id="stop-firewalld">Stop firewalld</h4>
+
+<pre><code class="language-bash">  systemctl stop firwalld
+</code></pre>
+
+<h4 id="disable-firwalld">Disable firwalld</h4>
+
+<pre><code class="language-bash">  systemctl disable firwalld
+</code></pre>
+
+<h4 id="start-iptables">Start iptables</h4>
+
+<pre><code class="language-bash">  systemctl start iptables
+</code></pre>
+
+<h4 id="enable-iptables">Enable iptables</h4>
+
+<pre><code class="language-bash">  systemctl enable iptables
+</code></pre>
+
+<p>Now we have needed iptables up and running for further access controlling.</p>
+
+<h4 id="install-openvpn-server">Install OpenVPN Server</h4>
+
+<pre><code class="language-bash">  yum -y install openvpn
+</code></pre>
+
+<p>We have installed our VPN server, it&rsquo;s time to start and configure it for our purposes.</p>
+
+<h4 id="start-openvpn-server">Start OpenVPN Server</h4>
+
+<pre><code class="language-bash">  systemctl start openvpn@server
+</code></pre>
+
+<h4 id="enable-openvpn-server">Enable OpenVPN Server</h4>
+
+<pre><code class="language-bash">  systemctl enable openvpn@server
 </code></pre>
 </div>
 

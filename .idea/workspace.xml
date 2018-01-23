@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="53a11131-c62a-4c8c-ab34-c0725c588465" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/content/post/vpn-nat.md" afterPath="$PROJECT_DIR$/content/post/vpn-nat.md" />
-      <change beforePath="$PROJECT_DIR$/content/project/vpn-nat.md" afterPath="$PROJECT_DIR$/content/project/vpn-nat.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,6 +43,11 @@
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Damian Rajca &lt;damekr@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -154,6 +157,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="GO_FMT" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -217,6 +221,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="VPN project update" />
+    <option name="LAST_COMMIT_MESSAGE" value="VPN project update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

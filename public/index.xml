@@ -17,7 +17,8 @@
       <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://rajca.org/project/vpn-nat/</guid>
-      <description>How to configure access to computer behind NAT Network using VPN.</description>
+      <description> How to configure access to computer behind NAT Network using OpenVPN. Requirements:  Linux server with root access preferable CentOS 7 Basic bash knowledge  Let&amp;rsquo;s start! ssh root@&amp;lt;server&amp;gt;  Make some updates
+yum -y update &amp;amp;&amp;amp; yum -y upgrade  </description>
     </item>
     
     <item>

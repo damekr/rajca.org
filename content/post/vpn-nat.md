@@ -13,6 +13,8 @@ to get access to this network for example over SSH. There are some options, for 
 Easy for implementation but come one we need something under our own control!
 Under Projects category you can find complete tutorial how to install and configure such access option.
 
+Direct link to the project: [Home Access over VPN](https://rajca.org/project/vpn-nat/)
+
 #### What will be needed:
 
 * 24/7 Linux server (droplet, vps, cloud), tutorial will base on CentOS 7 but similar config is for Ubuntu for example.

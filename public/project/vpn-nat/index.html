@@ -162,52 +162,69 @@
 <pre><code class="language-bash">  ssh root@&lt;server&gt;
 </code></pre>
 
+<h4 id="install-additional-epel-repository">Install additional epel repository</h4>
+
+<pre><code class="language-bash">yum -y install epel-release
+</code></pre>
+
 <h4 id="make-some-updates">Make some updates</h4>
 
-<pre><code class="language-bash">  yum -y update &amp;&amp; yum -y upgrade
+<pre><code class="language-bash">yum -y update &amp;&amp; yum -y upgrade
 </code></pre>
 
 <h4 id="stop-firewalld">Stop firewalld</h4>
 
-<pre><code class="language-bash">  systemctl stop firwalld
+<pre><code class="language-bash">systemctl stop firwalld
 </code></pre>
 
 <h4 id="disable-firwalld">Disable firwalld</h4>
 
-<pre><code class="language-bash">  systemctl disable firwalld
+<pre><code class="language-bash">systemctl disable firwalld
 </code></pre>
 
 <h4 id="start-iptables">Start iptables</h4>
 
-<pre><code class="language-bash">  systemctl start iptables
+<pre><code class="language-bash">systemctl start iptables
 </code></pre>
 
 <h4 id="enable-iptables">Enable iptables</h4>
 
-<pre><code class="language-bash">  systemctl enable iptables
+<pre><code class="language-bash">systemctl enable iptables
 </code></pre>
 
 <p><br/>
 <strong>Now we have needed iptables up and running for further access controlling.</strong>
 <br/><br/></p>
 
-<h4 id="install-openvpn-server">Install OpenVPN Server</h4>
+<h4 id="install-easyrsa">Install EasyRSA</h4>
 
-<pre><code class="language-bash">  yum -y install openvpn
+<p>It&rsquo;s for generating server certificates</p>
+
+<pre><code class="language-bash">yum -y install easy-rsa
 </code></pre>
 
-<p><br/>
-<strong>We have installed our VPN server, it&rsquo;s time to start and configure it for our purposes.</strong>
-<br/><br/></p>
+<h4 id="install-openvpn-server">Install OpenVPN Server</h4>
+
+<pre><code class="language-bash">yum -y install openvpn
+</code></pre>
 
 <h4 id="start-openvpn-server">Start OpenVPN Server</h4>
 
-<pre><code class="language-bash">  systemctl start openvpn@server
+<pre><code class="language-bash">systemctl start openvpn@server
 </code></pre>
 
 <h4 id="enable-openvpn-server">Enable OpenVPN Server</h4>
 
-<pre><code class="language-bash">  systemctl enable openvpn@server
+<pre><code class="language-bash">systemctl enable openvpn@server
+</code></pre>
+
+<p><br/>
+<strong>We have installed up and running our VPN server, it&rsquo;s time to start and configure it for our purposes.</strong>
+<br/><br/></p>
+
+<h4 id="copy-example-server-configuration-file">Copy example server configuration file</h4>
+
+<pre><code class="language-bash">cp /usr/share/doc/openvpn-*/sample/sample-config-files/server.conf /etc/openvpn
 </code></pre>
 </div>
 

@@ -17,7 +17,7 @@
       <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://rajca.org/project/vpn-nat/</guid>
-      <description>How to configure access to computer behind NAT Network using OpenVPN. Requirements:  Linux server with root access preferable CentOS 7 Basic bash knowledge  Let&amp;rsquo;s start! Server configuration part Login to our VPN Server ssh root@&amp;lt;server&amp;gt;  Make some updates yum -y update &amp;amp;&amp;amp; yum -y upgrade  Stop firewalld systemctl stop firwalld  Disable firwalld systemctl disable firwalld  Start iptables systemctl start iptables  Enable iptables systemctl enable iptables   Now we have needed iptables up and running for further access controlling.</description>
+      <description>How to configure access to computer behind NAT Network using OpenVPN. Requirements:  Linux server with root access preferable CentOS 7 Basic bash knowledge  Let&amp;rsquo;s start! Server configuration part Login to our VPN Server ssh root@&amp;lt;server&amp;gt;  Install additional epel repository yum -y install epel-release  Make some updates yum -y update &amp;amp;&amp;amp; yum -y upgrade  Stop firewalld systemctl stop firwalld  Disable firwalld systemctl disable firwalld  Start iptables systemctl start iptables  Enable iptables systemctl enable iptables   Now we have needed iptables up and running for further access controlling.</description>
     </item>
     
   </channel>

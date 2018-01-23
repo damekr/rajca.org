@@ -2,7 +2,7 @@ baseURL = "https://rajca.org/"
 languageCode = "en-us"
 title = "Damian Rajca"
 theme = "minimal"
-
+staticDir = ["static"]
 [params]
     author = "Damian Rajca"
     description = "Personal blog theme powered by Hugo"

@@ -2,21 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Damian Rajca</title>
-    <link>http://rajca.org/</link>
+    <link>https://rajca.org/</link>
     <description>Recent content on Damian Rajca</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 May 2017 11:25:59 +0000</lastBuildDate>
-    <atom:link href="http://rajca.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rajca.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Home Access over VPN</title>
+      <link>https://rajca.org/project/vpn-nat/</link>
+      <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rajca.org/project/vpn-nat/</guid>
+      <description>How to configure access to computer behind NAT Network using VPN.</description>
+    </item>
+    
+    <item>
+      <title>Home Lab access over VPN</title>
+      <link>https://rajca.org/post/vpn-nat/</link>
+      <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rajca.org/post/vpn-nat/</guid>
+      <description>Hi! It&amp;rsquo;s going to be my first real blog post! I&amp;rsquo;m going to start from something technical, quite useful in developers world. From time to time I faced some problems with connecting to my lab, located in my flat. The situation is because my internet provider uses NAT network. It&amp;rsquo;s not easy to get access to this network for example over SSH. There are some options, for example team viewer.</description>
+    </item>
     
     <item>
       <title>hello</title>
-      <link>http://rajca.org/post/hello/</link>
+      <link>https://rajca.org/post/hello/</link>
       <pubDate>Sun, 21 May 2017 11:25:59 +0000</pubDate>
       
-      <guid>http://rajca.org/post/hello/</guid>
-      <description>&lt;p&gt;Hello everyone, this is a test post!&lt;/p&gt;
-</description>
+      <guid>https://rajca.org/post/hello/</guid>
+      <description>Hello everyone, this is a test post!</description>
     </item>
     
   </channel>

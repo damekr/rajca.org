@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Damian Rajca</title>
+    <link>https://rajca.org/tags/</link>
+    <description>Recent content in Tags on Damian Rajca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rajca.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux</title>
+      <link>https://rajca.org/tags/linux/</link>
+      <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rajca.org/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nat</title>
+      <link>https://rajca.org/tags/nat/</link>
+      <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rajca.org/tags/nat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vpn</title>
+      <link>https://rajca.org/tags/vpn/</link>
+      <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rajca.org/tags/vpn/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

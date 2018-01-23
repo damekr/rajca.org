@@ -52,7 +52,7 @@ draft: true
 ```
 
 
-Now we have needed iptables up and running for further access controlling.
+**Now we have needed iptables up and running for further access controlling.**
 
 
 #### Install OpenVPN Server
@@ -62,7 +62,7 @@ Now we have needed iptables up and running for further access controlling.
 ```
 
 
-We have installed our VPN server, it's time to start and configure it for our purposes.
+**We have installed our VPN server, it's time to start and configure it for our purposes.**
 
 
 

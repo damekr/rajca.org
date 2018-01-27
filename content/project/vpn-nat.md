@@ -97,3 +97,5 @@ systemctl enable openvpn@server
 ```bash
 cp /usr/share/doc/openvpn-*/sample/sample-config-files/server.conf /etc/openvpn
 ```
+
+#### TBC 
